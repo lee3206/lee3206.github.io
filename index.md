@@ -13,3 +13,5 @@ Using the implicit associations task (IAT) and pictures of peoples own possessio
 
 ## Grief Stricken in A Crowd
 We created a coding system to identify messages to deceased MySpace users that indicated potential emotional distress. We found that linguistic style can be an indicator of said emotional distress and that natural language processing can potentially be used to automatically detect bereavement-related distress.
+
+**Move to [Current Projects](currentResearch.md)
