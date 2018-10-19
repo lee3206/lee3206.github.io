@@ -1,3 +1,5 @@
 theme: jekyll-theme-dinky
 title: Lee Taber
 description: PhD Student in Computational Media
+plugins:
+-jekyll-seo-tag
