@@ -18,10 +18,16 @@
         <h1 class="header">{{ site.title | default: site.github.repository_name }}</h1>
         <p class="header">{{ site.description | default: site.github.project_tagline }}</p>
         <ul>
-            <li><a class="buttons" href="{{ currentResearch.md }}">Current Research Projects</a></li>
-          
-          
-          
+            <li><a class="buttons" href="{{ index.md }}">Home</a></li>
+        </ul>
+        <ul>
+            <li><a class="buttons" href="{{ currentResearch.md }}">Current Research</a></li>
+        </ul>
+        <ul>
+            <li><a class="buttons" href="{{ cv.md }}">CV</a></li>
+        </ul>
+        <ul>
+            <li><a class="buttons" href="{{ funProjects.md }}">Fun Projects</a></li>
         </ul>
         <ul>
           {% if site.show_downloads %}
