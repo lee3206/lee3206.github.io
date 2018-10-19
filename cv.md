@@ -7,6 +7,7 @@
 Brubaker, J. R., Kivran-Swaine, F., **Taber, L.**, & Hayes, G. R. (2012). In John Breslin (Chair). Grief-stricken in a crowd: The language of bereavement and distress in social media. International aaai conference on weblogs and social media, Dublin, Ireland. Retrieved from http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/viewFile/4622/4965
 
 **Conference
+
 **Taber, L.**, Kwan, V., Feist, G. (2016). Online Situations: Using the RSQ to Examine Online Situations. Poster presented at the Annual Convention of the Western Psychological Association in Long Beach, C. A.
 
 **Taber, L.**, Tarani, Eldita, and Oyamot, C. M. (2016). Facebook, Puzzles, and Other Distractions: Are People Escaping the Self? Poster presented at the Annual Convention of the Western Psychological Association in Long Beach, C. A.
