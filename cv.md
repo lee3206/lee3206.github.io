@@ -1,5 +1,7 @@
 *Publications/CV
+
 **Journal
+
 **Taber, L.**, Borrman, K., & Whittaker, S. (2018, April). Personality depends on the medium: differences in self-perception on Snapchat, Facebook and offline. In Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems (p. 607). ACM.
 
 Brubaker, J. R., Kivran-Swaine, F., **Taber, L.**, & Hayes, G. R. (2012). In John Breslin (Chair). Grief-stricken in a crowd: The language of bereavement and distress in social media. International aaai conference on weblogs and social media, Dublin, Ireland. Retrieved from http://www.aaai.org/ocs/index.php/ICWSM/ICWSM12/paper/viewFile/4622/4965
