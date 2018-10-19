@@ -1,11 +1,4 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/lee3206/lee3206.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
 # Home
-
 ## Main
 My research focus is on how interactions using computers can influence both the interactions and those interacting. In particular, I am interested in better understanding how use of social media can influence us and our personalities and why people might describe themselves as “addicted” to social media. In addition to this main line of research, I am interested in online dating and how that influences mate selection, video games, and potential interventions for unwanted media use. My earliest research also involved what influences people to have a desire to “escape the self”, understanding why people might irrationally hold on to things they no longer want, and how people used Myspace and Facebook messages to talk to deceased users.
 
