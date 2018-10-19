@@ -1,4 +1,4 @@
-![image of Lee](https://github.io/lee3206/images/lee1.jpg)
+![image of Lee](https://lee3206.github.io/images/lee1.jpg)
 
 # Home
 ## Main
