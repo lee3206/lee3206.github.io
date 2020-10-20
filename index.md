@@ -1,3 +1,8 @@
+---
+layout: default
+title: Homepage
+---
+
 <img src="https://lee3206.github.io/image/lee1.jpg" alt="image of Lee" width="200" style="transform:rotate(90deg);">
 
 # Home
