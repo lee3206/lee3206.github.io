@@ -1,9 +1,11 @@
 main:
+  - title: "About"
+    url: /about/
   - title: "Current Research"
     url: /current/
   - title: "CV"
     url: /cv/
-  - title: "About"
-    url: /about/
   - title: "Portfolio"
     url: /portfolio/
+  - title: "Blog"
+    url: /blog/

@@ -17,14 +17,14 @@ title: Lee's Website
 email: ltaber@ucsc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Where Lee Taber hosts his website and portfolio
-twitter_username: username
-github_username: username
+twitter_username: lee_taber
+github_username: lee3206
 minimal_mistakes_skin: default
 search: true
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes@4.21.0
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
@@ -65,10 +65,10 @@ author:
       url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/lee_taber"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/lee3206"
     - label: "Linkedin"
       icon: "fab fa-fw fa-linkedin"
       url: "https://linkedin.com/"
@@ -78,16 +78,16 @@ footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+      url: "https://twitter.com/lee_taber"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
+      url: "https://github.com/lee3206"
 
 
 defaults:
   # _posts
   - scope:
-      path: ""
+      path: "_posts"
       type: posts
     values:
       layout: single
@@ -98,10 +98,11 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
+      classes: wide
       author_profile: true
 
 category_archive:
@@ -110,3 +111,6 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+head_scripts:
+  - https://code.jquery.com/jquery-3.5.1.slim.min.js
+  - https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js
