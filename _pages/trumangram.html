@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+	<html>
+	<head>
+		<title>TrumanGram</title>
+		<meta lang="en" charset="utf-8" content="width=device-width, initial-scale=1.0" name="viewport">
+		<link rel="icon" href="/assets/images/camera.jpg">
+		<link rel="stylesheet" href="/assets/css/trumanStyle.css">
+		<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+		<script>
+			$(window).scroll(function() {
+				if($(window).scrollTop()+5 >= $(document).height() - $(window).height()) {
+					const nextGal = document.createElement("div");
+					const newContent = document.createTextNode("I am infinite");
+					nextGal.appendChild(newContent);
+					nextGal.className = "gallery";
+					const main = document.getElementById("main");
+					main.appendChild(nextGal);
+				}
+			});
+		</script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+	</head>
+	<body>
+		<div id="overlay" style="background-color:rgba(0,0,0,.5); display:none; position:fixed; top:0px; left:0px; width:100%; height:100vh; z-index:10;">
+			<div class="block">
+				<button style="border-top-left-radius:2vh;border-top-right-radius:2vh;">Block this user</button>
+				<button>Restrict</button>
+				<button>Report User</button>
+				<button id="closeBlock" style="border:none; font-family:OpenSans;color:black;border-bottom-left-radius:2vh;border-bottom-right-radius:2vh;">Cancel</button>
+				<script>
+					document.getElementById("closeBlock").onclick = function() {blockMenuClose()};
+					function blockMenuClose() {
+					  document.getElementById("overlay").style.display = "none";
+					}
+				</script>
+			</div>
+		</div>
+		<div class="nav">
+			<img src="/assets/images/logo.jpg" height="60px">
+			<div style="flex-grow:3;"></div>
+			<input type="text" placeholder="Search..." style="flex-grow:1; height:25px; color:rgb(100,100,100); text-align:center; background-color:rgb(248,248,248); border-radius:3px;border:1px solid rgb(200,200,200);"></input>
+			<div class="links">
+				<img class="navIcon" src="/assets/images/CompassIcon.png">
+				<img class="navIcon" src="/assets/images/HouseIcon.png">
+				<img class="navIcon" src="/assets/images/HeartIcon.png">
+			</div>
+		</div>
+		<div id="main" style="width:100%; max-width:1000px; margin:auto;">
+			<div class="profile">
+				<img src="/assets/images/StillLifeValue1.png" style="border-radius:75px; width:150px; height:150px; margin:30px;">
+				<div id="mid">
+					<div class="info">
+						<h2 id="username" style="margin-right:5px;">Anderew</h2>
+						<img src="/assets/images/VerifiedIcon.png" height="20px" width="20px">
+						<button id="follow" style="background-color:rgb(50,180,255); font-size:16px; color:white; height:40px; width:100px; border-radius:5px; border:none;">Follow</button>
+						<script>
+							document.getElementById("follow").onclick = function() {blockMenu()};
+							function blockMenu() {
+							  document.getElementById("overlay").style.display = "block";
+							}
+						</script>
+						<h4>...</h4>
+					</div>
+					<div class="info">
+						<p><b>3,032</b> posts</p>
+						<p><b>274m</b> followers</p>
+						<p><b>468</b> following</p>
+					</div>
+					<div id="name">
+						<h3 style="line-height:0px"><b>Andrew Dunne</b></h3>
+					</div>
+					<p>This is the 'About Me' section. Blah blah blah.</p>
+					<p><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">yourWebsite.com</a></p>
+				</div>
+				<div></div>
+			</div>
+			<div class="tabs">
+				<p>Posts</p>
+				<p>IGTV</p>
+				<p>Tagged</p>
+			</div>
+			<div class="gallery">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+			</div>
+			<div class="gallery">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+			</div>
+			<div class="gallery">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+				<img src="/assets/images/sprite.png" width="300vh" height="300vh">
+			</div>
+		</div>
+	</body>
+</html>
