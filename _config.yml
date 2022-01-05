@@ -13,7 +13,7 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Lee's Website
+title: Lee Taber's Website
 email: ltaber@ucsc.edu
 description: >- # this means to ignore newlines until "baseurl:"
   Where Lee Taber hosts his website and portfolio
@@ -60,9 +60,6 @@ author:
   avatar : "/assets/images/lee-bio.jpg"
   bio    : "I'm an HCI Ph.D. student interested in self-presentation through media"
   links:
-    - label: "Lab Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/lee_taber"
