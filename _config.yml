@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Lee Taber"
   avatar : "/assets/images/lee-bio.jpg"
-  bio    : "I'm an HCI Ph.D. student interested in self-presentation through media"
+  bio    : "I'm a recently graduated HCI Ph.D. who is interested in self-presentation through media"
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
